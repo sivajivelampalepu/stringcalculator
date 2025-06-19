@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/stringcalculator/static/css/main.c7261c82.css",
+    "main.js": "/stringcalculator/static/js/main.25c634e8.js",
+    "static/js/453.088910ea.chunk.js": "/stringcalculator/static/js/453.088910ea.chunk.js",
+    "index.html": "/stringcalculator/index.html",
+    "main.c7261c82.css.map": "/stringcalculator/static/css/main.c7261c82.css.map",
+    "main.25c634e8.js.map": "/stringcalculator/static/js/main.25c634e8.js.map",
+    "453.088910ea.chunk.js.map": "/stringcalculator/static/js/453.088910ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7261c82.css",
+    "static/js/main.25c634e8.js"
+  ]
+}
