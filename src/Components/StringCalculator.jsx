@@ -21,17 +21,23 @@ const StringCalculator = () => {
   };
 
   return (
-    <div className="d-flex justify-content-center w-100">
-      <Card
-        className="p-4 shadow-lg rounded-4  mt-5"
-        style={{ width: '100%', maxWidth: '600px', background: 'white',height:"500" }}
-      >
+    <div className="d-flex justify-content-center w-100 ">
+     <Card
+  className="p-4 shadow-lg rounded-4 mb-5"
+  style={{
+    width: '100%',
+    maxWidth: '600px',
+    background: 'white',
+    maxHeight: 'calc(100vh - 140px)',
+    overflowY: 'auto'
+  }}
+>
         <Card.Body>
-          <Card.Title className="text-center mb-4 fs-3 fw-bold text-success"><IoMdCalculator/> String Calculator</Card.Title>
+          <Card.Title className="text-center  fs-3 fw-bold text-success"><IoMdCalculator/> String Calculator</Card.Title>
 
-          <Form.Group className="mb-3">
+          <Form.Group >
             <Form.Label>
-             <Alert variant="info" className="mt-4"> *** Enter Numbers (comma, newline, or custom delimiter)</Alert>
+             <Alert variant="info" > *** Enter Numbers (comma, newline, or custom delimiter)</Alert>
               
               </Form.Label>
             <Form.Control
@@ -44,7 +50,7 @@ const StringCalculator = () => {
             />
           </Form.Group>
 
-          <div className="d-grid">
+          <div className="d-grid mt-2">
             <Button variant="success" size="lg" onClick={handleCalculate}>
               Calculate
             </Button>

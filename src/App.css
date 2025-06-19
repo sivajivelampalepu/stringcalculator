@@ -37,19 +37,11 @@
   }
 }
 
-
-/* body {
-  background-color: #f0f2f5; 
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-} */
-
 body, html, #root {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1ec;
+  background-color: #f0f2f5;
 }
 
 .app-wrapper {
@@ -58,29 +50,32 @@ body, html, #root {
   height: 100vh;
   overflow: hidden;
 }
-
-.header-fixed,
-.footer-fixed {
+.header-fixed {
   position: fixed;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 1030;
-}
-
-.header-fixed {
-  top: 0;
+  height: 50px;
 }
 
 .footer-fixed {
+  position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  height: 45px;
 }
 
 .main-scrollable {
   flex: 1;
   overflow-y: auto;
-  padding-top: 80px;   
-  padding-bottom: 70px; 
+  margin-top: 50px;    
+  margin-bottom: 45px; 
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  padding: 16px;
 }
+

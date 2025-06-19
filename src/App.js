@@ -7,7 +7,7 @@ function App() {
   return (
       <div className="app-wrapper">
         <Header/>
-      <main className="main-content">
+      <main className="main-content mt-2">
         <StringCalculator />
       </main>
       <Footer/>

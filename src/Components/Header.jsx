@@ -4,7 +4,7 @@ import { IoMdCalculator } from 'react-icons/io';
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="shadow-sm py-3 header-fixed">
+    <Navbar bg="dark" variant="dark" expand="lg" className="shadow-sm header-fixed py-1">
       <Container>
         <Navbar.Brand className="fs-4 fw-semibold text-success ">
            String Calculator  <IoMdCalculator/>
